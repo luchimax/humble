@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+    
+    body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+        
+            .navbar {
+                background-color: #000;
+                padding: 1rem;
+            }
+        
+            .navbar-brand {
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        
+            .navbar-nav .nav-item .nav-link {
+                color: #fff;
+                padding: 0.5rem 1rem;
+            }
+         </style>
+    </head>
+
+<body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HUMBLE.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="musica.html">MUSICA</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SHOP
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="partesarriba.html">partes de arriba</a></li>
+              <li><a class="dropdown-item" href="partesabajo.html">partes de abajo</a></li>
+              <li><a class="dropdown-item" href="accesorios.html">accesorios</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Accesorios -->
+    <style>
+        #accesorios .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+
+        #accesorios .grid-item {
+            background-color: #f5f5f5;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+
+        }
+
+        #accesorios .grid-item img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        #accesorios .grid-item p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+
+    <section id="accesorios">
+        <div class="container">
+            <h2>ACCESORIOS, complementa tu estilo.</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="imagenes/im 17.jpg" alt="Producto 17" data-bs-toggle="modal" data-bs-target="#producto17Modal">
+                    <p>y2k sunglasses</p>
+                    <div class="modal fade" id="producto17Modal" tabindex="-1" aria-labelledby="producto17Label"
+                        aria-hidden="true">
+                        
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="producto17Label">y2k sunglasses</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                   $10000
+                                </div>
+                                <div class="modal-footer">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="grid-item">
+                    <img src="imagenes/im 18.jpg" alt="Producto 18" data-bs-toggle="modal" data-bs-target="#producto18Modal">
+                    <p>land rover gorra</p>
+                    <div class="modal fade" id="producto18Modal" tabindex="-1" aria-labelledby="producto18Label"
+                        aria-hidden="true">
+                        
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="producto18Label">land rover gorra</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    $18000
+                                </div>
+                                <div class="modal-footer">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                      <!-- Producto 19 -->
+                      <div class="grid-item">
+                        <img src="imagenes/im 19.jpg" alt="Producto 19" data-bs-toggle="modal" data-bs-target="#producto19Modal">
+                        <p>ralph polo gorra</p>
+                        <div class="modal fade" id="producto19Modal" tabindex="-1" aria-labelledby="producto19Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="producto19Label">ralph polo gorra</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        $25000
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Producto 20 -->
+                    <div class="grid-item">
+                        <img src="imagenes/im 20.jpg" alt="Producto 20" data-bs-toggle="modal" data-bs-target="#producto20Modal">
+                        <p>gorra jean</p>
+                        <div class="modal fade" id="producto20Modal" tabindex="-1" aria-labelledby="producto20Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="producto20Label">gorra jean</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        $15000
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Producto 21 -->
+                    <div class="grid-item">
+                        <img src="imagenes/im 21.jpg" alt="Producto 21" data-bs-toggle="modal" data-bs-target="#producto21Modal">
+                        <p>gucci militar green lentes</p>
+                        <div class="modal fade" id="producto21Modal" tabindex="-1" aria-labelledby="producto21Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="producto21Label">gucci militar green lentes</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        $30000
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Producto 22 -->
+                    <div class="grid-item">
+                        <img src="imagenes/im 22.jpg" alt="Producto 22" data-bs-toggle="modal" data-bs-target="#producto22Modal">
+                        <p>green tote</p>
+                        <div class="modal fade" id="producto22Modal" tabindex="-1" aria-labelledby="producto22Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="producto22Label">green tote</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        $12000
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Producto 23 -->
+                    <div class="grid-item">
+                        <img src="imagenes/im 23.jpg" alt="Producto 23" data-bs-toggle="modal" data-bs-target="#producto23Modal">
+                        <p>lentes prada starry</p>
+                        <div class="modal fade" id="producto23Modal" tabindex="-1" aria-labelledby="producto23Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="producto23Label">lentes prada starry</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        $30000
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Producto 24 -->
+                    <div class="grid-item">
+                        <img src="imagenes/im 24.jpg" alt="Producto 24" data-bs-toggle="modal" data-bs-target="#producto24Modal">
+                        <p>love tote bag</p>
+                        <div class="modal fade" id="producto24Modal" tabindex="-1" aria-labelledby="producto24Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="producto24Label">love tote bag</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        $10000
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+            </div>
+        </div>
+    </section>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

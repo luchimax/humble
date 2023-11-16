@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<style> body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 0.5rem 1rem;
+}</style>
+    </head>
+
+<body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HUMBLE.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="musica.html">MUSICA</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SHOP
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="partesarriba.html">partes de arriba</a></li>
+              <li><a class="dropdown-item" href="partesabajo.html">partes de abajo</a></li>
+              <li><a class="dropdown-item" href="accesorios.html">accesorios</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- musica -->
+    <style>
+        #muusica .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+
+        #musica .grid-item {
+            background-color: #f5f5f5;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+
+        }
+
+        #musica .grid-item img {
+            max-width: 1;
+            height: 1;
+        }
+
+        #musica .grid-item p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+
+<section id="musica">
+    <div class="container">
+        <h2>MÚSICA, agregrale ritmo con unos vinilos.</h2>
+        <div class="grid-container">
+            <!-- Producto 25 -->
+            <div class="grid-item">
+                <img src="imagenes/im 25.jpg" alt="Producto 25" data-bs-toggle="modal" data-bs-target="#producto25Modal">
+                <p>circles by mac miller</p>
+                <div class="modal fade" id="producto25Modal" tabindex="-1" aria-labelledby="producto25Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto25Label">circles mac miller</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $30000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 26 -->
+            <div class="grid-item">
+                <img src="imagenes/im 26.jpg" alt="Producto 26" data-bs-toggle="modal" data-bs-target="#producto26Modal">
+                <p>reputation by taylor swift</p>
+                <div class="modal fade" id="producto26Modal" tabindex="-1" aria-labelledby="producto26Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto26Label">reputation taylor swift</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $40000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 27 -->
+            <div class="grid-item">
+                <img src="imagenes/im 27.jpg" alt="Producto 27" data-bs-toggle="modal" data-bs-target="#producto27Modal">
+                <p>flower boy by tyler, the creator</p>
+                <div class="modal fade" id="producto27Modal" tabindex="-1" aria-labelledby="producto27Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto27Label">flower boy tyler, the creator</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $35000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 28 -->
+            <div class="grid-item">
+                <img src="imagenes/im 28.jpg" alt="Producto 28" data-bs-toggle="modal" data-bs-target="#producto28Modal">
+                <p>IGOR by tyler, the creator</p>
+                <div class="modal fade" id="producto28Modal" tabindex="-1" aria-labelledby="producto28Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto28Label">IGOR tyler, the creator</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $30000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 29 -->
+            <div class="grid-item">
+                <img src="imagenes/im 29.jpg" alt="Producto 29" data-bs-toggle="modal" data-bs-target="#producto29Modal">
+                <p>immunity by clairo</p>
+                <div class="modal fade" id="producto29Modal" tabindex="-1" aria-labelledby="producto29Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto29Label">immunity clairo</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $25000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 30 -->
+            <div class="grid-item">
+                <img src="imagenes/im 30.jpg" alt="Producto 30" data-bs-toggle="modal" data-bs-target="#producto30Modal">
+                <p>Wiped Out! by the neighbourhood</p>
+                <div class="modal fade" id="producto30Modal" tabindex="-1" aria-labelledby="producto30Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto30Label">Wiped Out! the neighbourhood</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $28000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 31 -->
+            <div class="grid-item">
+                <img src="imagenes/im 31.jpg" alt="Producto 31" data-bs-toggle="modal" data-bs-target="#producto31Modal">
+                <p>happier than ever by billie eilish</p>
+                <div class="modal fade" id="producto31Modal" tabindex="-1" aria-labelledby="producto31Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto31Label">happier than ever billie eilish</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $40000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 32 -->
+            <div class="grid-item">
+                <img src="imagenes/im 32.jpg" alt="Producto 32" data-bs-toggle="modal" data-bs-target="#producto32Modal">
+                <p>starboy by the weeknd</p>
+                <div class="modal fade" id="producto32Modal" tabindex="-1" aria-labelledby="producto32Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto32Label">starboy the weeknd</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $40000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 33 -->
+            <div class="grid-item">
+                <img src="imagenes/im 33.jpg" alt="Producto 33" data-bs-toggle="modal" data-bs-target="#producto33Modal">
+                <p>blonde by frank ocean</p>
+                <div class="modal fade" id="producto33Modal" tabindex="-1" aria-labelledby="producto33Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto33Label">blonde frank ocean</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $30000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 34 -->
+            <div class="grid-item">
+                <img src="imagenes/im 34.jpg" alt="Producto 34" data-bs-toggle="modal" data-bs-target="#producto34Modal">
+                <p>harry´s by house harry styles</p>
+                <div class="modal fade" id="producto34Modal" tabindex="-1" aria-labelledby="producto34Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto34Label">harry´s house harry styles</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                $40000
+                            </div>
+                            <div class="modal-footer">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

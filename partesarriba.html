@@ -1,0 +1,305 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
+<style>body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 0.5rem 1rem;
+}</style>
+</head>
+  <body>
+      <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HUMBLE.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="musica.html">MUSICA</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SHOP
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="partesarriba.html">partes de arriba</a></li>
+              <li><a class="dropdown-item" href="partesabajo.html">partes de abajo</a></li>
+              <li><a class="dropdown-item" href="accesorios.html">accesorios</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--partes arriba -->
+<style>
+  #partesarriba .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas por fila */
+    grid-gap: 20px;
+  }
+
+  #partesarriba .grid-item {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+  #partesarriba .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #partesarriba .grid-item p {
+    font-size: 14px;
+    color: #666;
+  }
+</style>
+
+       <section id="partesarriba">
+        <div class="container">
+          <h2>PARTES DE ARRIBA, be humble when u r on TOP.</h2>
+          <div class="grid-container">
+            <div class="grid-item">
+                <img src="imagenes/im 1.jpg" alt="Producto 1" data-bs-toggle="modal" data-bs-target="#producto1Modal">
+                <p>speedway racing tee</p>
+                <!-- Modal para Producto 1 -->
+                <div class="modal fade" id="producto1Modal" tabindex="-1" aria-labelledby="producto1Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto1Label">speedway racing tee</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>$15000</p>
+                                   <p>talle L</p> 
+                                
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="grid-item">
+                <img src="imagenes/im 2.jpg" alt="Producto 2" data-bs-toggle="modal" data-bs-target="#producto2Modal">
+                <p>inserror brown tee</p>
+
+                <div class="modal fade" id="producto2Modal" tabindex="-1" aria-labelledby="producto2Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto2Label">inserror brown tee</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>$20000</p>
+                                <p>talle L</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="grid-item">
+                <img src="imagenes/im 3.jpg" alt="Producto 3" data-bs-toggle="modal" data-bs-target="#producto3Modal">
+                <p>chomba veshy black&blue</p>
+            
+                <div class="modal fade" id="producto3Modal" tabindex="-1" aria-labelledby="producto3Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto3Label">chomba veshy black&blue</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                               <p>$20000
+                               <p>talle M</p> 
+                               </p> 
+                            </div>
+                            <div class="modal-footer">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!--  -->
+            <div class="grid-item">
+                <img src="imagenes/im 4.jpg" alt="Producto 4" data-bs-toggle="modal" data-bs-target="#producto4Modal">
+                <p>embroided camisa manga corta</p>
+            
+                <div class="modal fade" id="producto4Modal" tabindex="-1" aria-labelledby="producto4Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto4Label">embroided camisa manga corta</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>$15000 
+
+                                </p>talle XL</p>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!--  -->
+            <div class="grid-item">
+                <img src="imagenes/im 5.jpg" alt="Producto 5" data-bs-toggle="modal" data-bs-target="#producto5Modal">
+                <p>blackair jacket</p>
+                <!--   -->
+                <div class="modal fade" id="producto5Modal" tabindex="-1" aria-labelledby="producto5Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto5Label">blackair jacket</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                               <p>$30000</p> 
+                               <p>talle XL</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!--  -->
+            <div class="grid-item">
+                <img src="imagenes/im 6.jpg" alt="Producto 6" data-bs-toggle="modal" data-bs-target="#producto6Modal">
+                <p>worldwide tee</p>
+                <!--   -->
+                <div class="modal fade" id="producto6Modal" tabindex="-1" aria-labelledby="producto6Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto6Label">worldwide tee</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>$18000</p>
+                                <p>talle M</p>
+                            </div>
+                            <div class="modal-footer">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!--  -->
+            <div class="grid-item">
+                <img src="imagenes/im 7.jpg" alt="Producto 7" data-bs-toggle="modal" data-bs-target="#producto7Modal">
+                <p>buzo militar green</p>
+                <!--   -->
+                <div class="modal fade" id="producto7Modal" tabindex="-1" aria-labelledby="producto7Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto7Label">buzo militar green</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>$40000</p>
+                                <p>talle L</p>
+                            </div>
+                            <div class="modal-footer">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="grid-item">
+                <img src="imagenes/im 8.jpg" alt="Producto 8" data-bs-toggle="modal" data-bs-target="#producto8Modal">
+                <p>racing brown tee</p>
+                <!--   -->
+                <div class="modal fade" id="producto8Modal" tabindex="-1" aria-labelledby="producto8Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="producto8Label">racing brown tee</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                               <p>$24000</p> 
+                               <p>talle XL</p>
+                            </div>
+                            <div class="modal-footer">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      </section>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <body>
